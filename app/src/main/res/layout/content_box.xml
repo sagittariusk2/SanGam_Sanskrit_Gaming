@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/round_deactive"
+    android:id="@+id/boxRelative"
+    android:layout_width="35dp"
+    android:layout_height="35dp">
+
+    <TextView
+        android:layout_margin="4dp"
+        android:id="@+id/numberWord"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:gravity="center"
+        android:textSize="7sp"
+        android:textColor="@color/black"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:layout_margin="2dp"
+        android:background="@drawable/round_deactivate2"
+        android:id="@+id/editBox"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:cursorVisible="false"
+        android:inputType="text">
+    </EditText>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/darkGrey">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkGrey">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/verticalID"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/darkGrey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/white"
+            android:id="@+id/coinID"/>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+</LinearLayout>

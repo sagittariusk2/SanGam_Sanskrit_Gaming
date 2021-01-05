@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="50dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="50dp"
+            android:id="@+id/unlockNumber"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_toRightOf="@+id/unlockNumber"
+            android:layout_width="match_parent"
+            android:textStyle="italic"
+            android:id="@+id/unlockWord"
+            android:layout_toLeftOf="@+id/unlockButton"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:layout_width="50dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/unlockButton"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

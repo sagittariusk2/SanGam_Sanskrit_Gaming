@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/rt"
+    android:paddingHorizontal="30dp"
+    tools:context=".RulesActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="130dp"
+    android:layout_marginBottom="60dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/ruleEng"></TextView>
+
+
+</ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rules in Hindi"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:visibility="visible"
+            android:id="@+id/Rhindi">
+
+        </CheckBox>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">SanGam</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="gmail">
+         <u>autocratsboolean@gmail.com</u>.
+    </string>
+    <string name="rules"><br><b><u>SanGam coins :-\n</u></b></br>
+<br><b><u>It’s uses :\n</u></b></br>
+    <br> • This can be used to take hint in the game.\n</br>
+     <br> • It can help user to place him/her in the top of leaderboard section.\n</br>
+<br>\n</br>
+    <br><b><u>How to earn it :-\n</u></b></br>
+
+       <br>  • This is a coin only valid in the game.\n</br>
+       <br> • Users are given 30 coins during the registration.\n</br>
+         <br>• SanGam coins can be earned by solving puzzles and after correct guess in “Guess Who?” game.\n</br>
+  <br>\n</br>
+    <br><b><u>Game Rule :-\n</u></b></br>
+        <br>• There are two game :- Crossword and Guess who?\n</br>
+    <br>\n</br>
+<br>•<b><u>	Crossword Game :-\n</u></b></br>
+<br>• A user can solve a puzzle only when all the puzzles above it are solved by him/her in that level. User cannot have the access to other below puzzles.\n</br>
+<br>• Although user can solve the puzzle according to his/her level. He/She can attempt any level difficulty i.e. (Easy, Medium, Hard) according to the need following above rule.\n</br>
+<br>• After solving puzzle user will be awarded with some points and SanGam coins.\n</br>
+   <br>• For easy level, points :- 50 and SanGam coins :- 30\n</br>
+   <br>• For medium  level, points :- 100 and SanGam coins :- 40\n</br>
+    <br>• For hard  level, points :- 200 and SanGam coins :- 50\n</br>
+<br>• During game, user can take hint by spending 10 SanGam coins for a single word hint.\n</br>
+<br>• User can take hint of unlimited words if number of SanGam coins permit.\n</br>
+    <br>\n</br>
+    <br>•<b><u> Guess Who? Game :-\n</u></b>	</br>
+<br>• ‘Guess Who’ is a funny game. It can help a user to identify things in Sanskrit.\n</br>
+<br>• This game can increase the number of SanGam coins in the user account.\n</br>
+<br>• User can take any  hint from the following 3 hints by spending 1 coin per each.\n</br>
+   <br>• Know the first Sanskrit alphabet of word.\n</br>
+   <br>• Know the last Sanskrit alphabet of word.\n</br>
+   <br>• Know the number of Sanskrit alphabets in the word.\n</br>
+<br>• Correct answer can only award 2 coins.\n</br>
+<br>• No points are given in it.\n</br>
+</string>
+    <string name="rulesHindi"><br><b><u>SanGam सिक्के: -\n</u></b></br>
+  <br><b><u>• उपयोग: -\n</u></b></br>
+<br>• यह खेल में Hints लेने के लिए इस्तेमाल किया जा सकता है।\n</br>
+<br>• यह लीडरबोर्ड सेक्शन के शीर्ष पर उसे रखने में उपयोगकर्ता की मदद कर सकता है।\n</br>
+ <br>\n</br>
+ <br><b><u>• इसे कैसे कमाएँ: -\n</u></b></br>
+<br>• यह केवल खेल में मान्य सिक्का है।\n</br>
+<br>• पंजीकरण के दौरान उपयोगकर्ताओं को 30 सिक्के दिए जाते हैं।\n</br>
+<br>• पहेली को हल करके SanGam के सिक्के कमाए जा सकते हैं।\n</br>
+ <br>\n</br>
+ <br><b><u>• खेल नियम: -\n</u></b></br>
+<br>• दो खेल हैं: - Crossword और Guess Who?\n</br>
+ <br>\n</br>
+<br><b><u>• Crossword गेम: -\n</u></b></br>
+<br>• एक उपयोगकर्ता केवल एक पहेली को हल कर सकता है जब उसके ऊपर के सभी पहेली उस स्तर पर उसके द्वारा हल किए जाते हैं। उपयोगकर्ता अन्य पहेली के नीचे तक पहुँच नहीं सकता है।\n</br>
+<br>• हालांकि उपयोगकर्ता अपने स्तर के अनुसार पहेली को हल कर सकता है। वह उपरोक्त नियम का पालन करके आवश्यकता के अनुसार किसी भी स्तर की कठिनाई यानी (ईज़ी, मीडियम, हार्ड) का प्रयास कर सकता है।\n</br>
+<br>• पहेली को हल करने के बाद उपयोगकर्ता को कुछ Points और SanGam सिक्कों से सम्मानित किया जाएगा।\n</br>
+<br>   • आसान स्तर के लिए, अंक: - 50 और SanGam सिक्के: - 30\n</br>
+<br>   • मध्यम स्तर के लिए, अंक: - १०० और सनगम सिक्के: - ४०\n</br>
+<br>   • कठिन स्तर के लिए, अंक: - २०० और सनगम सिक्के: - ५०\n</br>
+<br>• यदि कोई उपयोगकर्ता एक पहेली को दो बार हल करता है, तो उसे अतिरिक्त SanGam सिक्के और अंक नहीं दिए जाएंगे।\n</br>
+<br>•  खेल के दौरान, उपयोगकर्ता Hint के लिए 10 SanGam सिक्के खर्च करके संकेत ले सकता है।\n</br>
+<br>•  यदि पर्याप्त SanGam सिक्के हैं, तो उपयोगकर्ता असीमित शब्दों का Hint ले सकता है\n</br>
+ <br>\n</br>
+<br><b><u>• Guess Who? खेल :-\n</u></b></br>
+<br>• Guess Who?  एक मज़ेदार खेल है। यह उपयोगकर्ता को संस्कृत में चीजों की पहचान करने में मदद कर सकता है।\n</br>
+<br>• यह गेम उपयोगकर्ता खाते में SanGam सिक्कों की संख्या बढ़ा सकता है।\n</br>
+<br>• उपयोगकर्ता प्रत्येक Hint के अनुसार 1 सिक्का खर्च करके निम्नलिखित 3 Hint में से कोई Hint ले सकता है।\n</br>
+<br>   • शब्द का पहला संस्कृत वर्णमाला पता करना।\n</br>
+<br>   • शब्द के अंतिम संस्कृत वर्णमाला को जानें।\n</br>
+<br>   • शब्द में संस्कृत वर्णमाला की संख्या ज्ञात कीजिये।\n</br>
+
+<br>• सही उत्तर केवल 2 सिक्के दे सकते हैं।\n</br>
+<br>• इसमें कोई Points नहीं दिए गए हैं।\n</br>
+
+
+    </string>
+    <string name="CrossWordEng">
+        <br> How to play :-\n</br>
+<br>1.	Crossword :-\n</br>
+<br>•	A timer game, i.e. It records the time until user finish the game.\n</br>
+<br>•	Click on respective no. i.e. 1, 2, 3 - - -  to get the meaning of the word. Type your answers in SANSKRIT (DEVNAGIRI) in respective boxes indicated in green and yellow color.\n</br>
+<br>•	You can click on lock icon, located at the left most part of screen, to get hints for any word. Each hint will cost 10 SanGam coins.\n</br>
+<br>•	After finishing the game, submit your answers.\n</br>
+    </string>
+    <string name="GuessWhoEng">
+<br>2.	Guess Who?\n</br>
+<br>•	A game recommended for child between class 1 to 8.\n</br>
+<br>•	An image will appear on the screen. User has to identify the object and type the answer in SANSKRIT (DEVNAGIRI) in the answer box.\n</br>
+<br>•	Click on the lock icon, located at the left most part of screen, to take hint to finish your guess. Each hint will cost 1 SanGam coin.\n</br>
+<br>•	You can submit the game after you guessed it right.\n</br>
+
+    </string>
+</resources>

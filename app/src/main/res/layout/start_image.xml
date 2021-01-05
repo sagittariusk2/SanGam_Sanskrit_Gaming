@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/ng234">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/darkGrey">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:textColor="@color/white"
+                    android:id="@+id/coinContainer"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:textColor="@color/white"
+                    android:id="@+id/snapShotContainer"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/unlockStart"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_toRightOf="@id/unlockStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:id="@+id/levelText"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"/>
+
+            </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/imageName"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textColorHint="#8F8D8D"
+                    android:hint="चित्र मे दिये हुए वस्तु का नाम संस्कृत मे लिखे।"
+                    android:background="@drawable/round_deactive"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/submitImageButton"
+                    android:text="Submit"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:backgroundTint="@color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.booleanautocrats.sangam_sankrit_gaming">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/slogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SanGam_Sankrit_Gaming">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".Dashboard"/>
+        <activity android:name=".game.crossWord.MainCrossword"/>
+        <activity android:name=".game.crossWord.CrossWordListActivity"/>
+        <activity android:name=".LeaderBoard"/>
+        <activity android:name=".game.guessWho.ImageActivity"/>
+        <activity android:name=".game.guessWho.GuessWhoListActivity"/>
+        <activity android:name=".game.crossWord.CrosswordGameActivity"/>
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".ChanePasswordActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".contactActivity" />
+        <activity android:name=".splashActivity" android:theme="@style/splashTheme" >
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".RulesActivity"></activity>
+        <activity android:name=".howToPlayActivity"/>
+
+
+
+
+
+    </application>
+
+</manifest>

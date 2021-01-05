@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "528677860964",
+    "project_id": "sangam-e9a58",
+    "storage_bucket": "sangam-e9a58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528677860964:android:c0cf67830d7c8b74859171",
+        "android_client_info": {
+          "package_name": "com.booleanautocrats.sangam_sankrit_gaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528677860964-pbdj8hn9gorh4ts1eddh8sa73l6e0a46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM624tHgQft95L6IAWSY2O__mIpkqlOnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528677860964-pbdj8hn9gorh4ts1eddh8sa73l6e0a46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
